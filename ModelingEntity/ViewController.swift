@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var coffeeLabel: UILabel!
     @IBOutlet weak var milkLabel: UILabel!
-    
+    //testtesttewst=====
     var coffeeMachine: CoffeeMachine!
     
     override func viewDidLoad() {
