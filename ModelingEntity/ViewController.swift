@@ -73,20 +73,20 @@ class ViewController: UIViewController {
 
 extension ViewController: UITextFieldDelegate{
 
-//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-//        if textField == firstNameTextField{
-//            if textField.text == ""{
-//                let alert = UIAlertController(title: "Error", message: "Textfield should not be empty.", preferredStyle: .alert)
-//                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-//                alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
-//
-//                self.present(alert, animated: true, completion: nil)
-//            }else{
-//                passwordTextField.becomeFirstResponder()
-//            }
-//        } else{
-//            passwordTextField.resignFirstResponder()
-//        }
-//        return true
-//    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == firstNameTextField{
+            if textField.text == ""{
+                let alert = UIAlertController(title: "Error", message: "Textfield should not be empty.", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
+
+                self.present(alert, animated: true, completion: nil)
+            }else{
+                passwordTextField.becomeFirstResponder()
+            }
+        } else{
+            passwordTextField.resignFirstResponder()
+        }
+        return true
+    }
 }
