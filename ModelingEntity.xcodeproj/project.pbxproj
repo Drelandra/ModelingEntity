@@ -16,6 +16,7 @@
 		8659C741228C05310036FE30 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659C740228C05310036FE30 /* RoundedButton.swift */; };
 		8659C745228C06B00036FE30 /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659C744228C06B00036FE30 /* Machine.swift */; };
 		8659C749228C09B70036FE30 /* AttributedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659C748228C09B70036FE30 /* AttributedButton.swift */; };
+		8659C74B228D63C60036FE30 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659C74A228D63C60036FE30 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8659C740228C05310036FE30 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		8659C744228C06B00036FE30 /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
 		8659C748228C09B70036FE30 /* AttributedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedButton.swift; sourceTree = "<group>"; };
+		8659C74A228D63C60036FE30 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				8659C72D228BE7550036FE30 /* Assets.xcassets */,
 				8659C72F228BE7550036FE30 /* LaunchScreen.storyboard */,
 				8659C732228BE7550036FE30 /* Info.plist */,
+				8659C74A228D63C60036FE30 /* DetailViewController.swift */,
 			);
 			path = ModelingEntity;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				8659C745228C06B00036FE30 /* Machine.swift in Sources */,
 				8659C739228BE7B60036FE30 /* CoffeeMachine.swift in Sources */,
 				8659C727228BE7540036FE30 /* AppDelegate.swift in Sources */,
+				8659C74B228D63C60036FE30 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
