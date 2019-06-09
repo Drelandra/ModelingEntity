@@ -27,6 +27,19 @@ class CoffeeMachine : Machine{
     func makeCoffee() {
         numOfBeans = numOfBeans - 2
         numOfMilk = numOfMilk - 1
+        
+        //        using function from parent class example
+        //        var c = CoffeeMachine(milk: <#T##Int#>, brand: <#T##String#>)
+        //        c.runMotor()
+        
     }
     
+    //    override example
+    //    override func runMotor() {
+    //        print("this is a CoffeeMachine runMotor function")
+    //    }
+    
 }
+
+//var c = CoffeeMachine(milk: <#T##Int#>, brand: <#T##String#>)
+//c.runMotor()
